@@ -70,7 +70,7 @@ azure-fn-barcode/
 7.  **Desenvolvimento do Front-end:** Criado para fornecer uma interface amigável para gerar e validar código de barras.
 
 
-# :bulb: Insights e Possibilidades
+## :bulb: Insights e Possibilidades
 
 * **Desacoplamento com Service Bus:** O uso do Azure Service Bus permite um desacoplamento entre a função que gera o código de barras e qualquer sistema que precise consumir essa informação. Isso torna o sistema mais escalável e resiliente.
 * **Arquitetura Serverless:** As Azure Functions permitem executar o backend da aplicação sem a necessidade de gerenciar servidores, focando apenas na lógica de negócio e pagando apenas pelo tempo de execução.
@@ -78,7 +78,7 @@ azure-fn-barcode/
 * **Integração com Outros Serviços Azure:** O Service Bus pode ser integrado com outros serviços do Azure, como Logic Apps ou Power Automate, para criar fluxos de trabalho mais complexos em torno da geração e processamento de boletos.
 
 
-# :computer: Instalação e Execução
+## :computer: Instalação e Execução
 Para executar este projeto e testar a funcionalidade de geração de código de barras:
 
 1. **Crie os Recursos do Azure:**
